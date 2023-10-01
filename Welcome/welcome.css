@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.bg{
+    background-image: url(./img/bg.jpg);
+    
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.title{
+    background-color: #4C4C4C;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: .6rem;
+    padding: 2%2.3%;
+    position: absolute;
+    top: 42%;
+    left: 36%;
+    border-bottom-right-radius:36px ;
+    border-top-left-radius: 36px;
+    outline: 8px inset #a23fa5;
+    outline-offset: 16px;    
+}
+.paragraf{
+    text-align: center;
+    color: rgb(102, 102, 102);
+    line-height: 29px;
+    padding: 4% 5.6%;
+    background-color: #f1f1f1;
+    font-weight: 400;
+       
+}
+
+.paragraf h2{
+    margin-bottom: 1.5%;;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+
+
+/* .bg2{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(./bg2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}  */
+.bg2{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.562), rgba(255,255,255,.5)), url(./img/bg2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    background-attachment: fixed;
+   
+    
+}
+.bg2 img{
+    width: 30%;
+    position: relative;
+    top: 40%;
+    left: 35%;
+    
+}
