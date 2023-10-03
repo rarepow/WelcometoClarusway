@@ -13,10 +13,11 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
+    opacity: 0.7;
 }
 
 .title{
-    background-color: #4C4C4C;
+    background-color: #0a0a0a;
     color: white;
     text-align: center;
     font-size: 48px;
@@ -24,12 +25,14 @@
     letter-spacing: .6rem;
     padding: 2%2.3%;
     position: absolute;
-    top: 42%;
-    left: 36%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     border-bottom-right-radius:36px ;
     border-top-left-radius: 36px;
     outline: 8px inset #a23fa5;
     outline-offset: 16px;    
+
 }
 .paragraf{
     text-align: center;
@@ -71,10 +74,10 @@
 
 .paragraf2{
     text-align: center;
-    color: rgb(102, 102, 102);
     line-height: 29px;
-    padding: 4% 5.5% 3% ;
-    background-color: #f1f1f1;
+    color: #DDDDDD;
+    padding: 4% 5.5% 4%  ;
+    background-color: #282E34;
     font-weight: 400;
        
 }
@@ -88,7 +91,7 @@
     background-image: url(./img/bg3.jpg);
     height: 100vh;
     opacity: 0.7; 
-      
+    background-attachment: fixed;
 
 }
 .bg3 p{
@@ -96,20 +99,18 @@
     color: white;
     text-align: center;
     width: 50%;
-    padding: 1% 0;
+    padding: 1% 0 0.5%;
     position: relative;
     top: 50%;
     left: 25%;
-    letter-spacing: .6rem;
+    letter-spacing: .5rem;
     border-bottom-right-radius:10px ;
     border-top-left-radius: 10px;
     outline: 5px inset #c72496;
     outline-offset: 5px; 
     font-size: 46px;
 }
-.bg3{
-    background-attachment: fixed;
-}
+
 
 .paragraf3{
     text-align: center;
@@ -129,21 +130,68 @@
 
 .bg4{
     background-image: url(./img/bg4.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
 
 }
 .bg4 p{
     background-color: #000000;
     color: white;
     text-align: center;
-    width: 50%;
+    width: 30%;
     padding: 1% 0;
     position: relative;
     top: 50%;
-    left: 25%;
-    letter-spacing: .6rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: .5rem;
     border-bottom-right-radius:10px ;
     border-top-left-radius: 10px;
     outline: 5px inset #c72496;
     outline-offset: 5px; 
-    font-size: 46px;
+    font-size: 42px;
 }
+
+.paragraf4{
+    text-align: center;
+    line-height: 29px;
+    color: #DDDDDD;
+    padding: 4% 5.5% 4%  ;
+    background-color: #282E34;
+    font-weight: 400;
+}
+
+.paragraf4 h2{
+    margin-bottom: 1.5%;;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bg5{
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+.bg5 p{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    width: 48%;
+    padding: 2% 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: .5rem;
+    border-bottom-right-radius:36px ;
+    border-top-left-radius: 36px;
+    outline: 8px inset #922170;
+    outline-offset: 16px; 
+    font-size: 48px;}
+
